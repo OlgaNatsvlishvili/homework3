@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-left: 190px;
+}
+
+header {
+    height: auto;
+    margin: 20px 0;
+}
+
+.menu {
+    background: linear-gradient(to top, #5c5c5c, #474646);
+    display: inline-block;
+    height: 30px;
+    width: 850px;
+}
+
+.menu li {
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+.menu li a {
+    display: inline-block;
+    font-size: 15px;
+    float: left;
+    color: #fff;
+    width: 100px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background: #343434;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.barside {
+    background: #fff;
+    float: left;
+    margin: 20px 0 0;
+}
+
+.barside td {
+    border: 1px solid #c8c8c8;
+    color: #656363;
+    display: inline-block
+    font-family: sans-serif;
+}
+.barside table {
+    border-collapse: collapse;
+    display: inline-block;
+    width: 200px;
+}
+
+.barside td a {
+    display: inline-block;
+    float: left;
+    font-size: 13px;
+    color: #656363;
+    padding: 14px;
+    text-decoration: none;
+    width: 170px;
+}
+
+.barside td a:hover {
+    background: #f9f9f9;
+    color: #2c2c2c;
+}
+
+.page {
+    border: 1px solid #c8c8c8;
+    height: 400px;
+    float: left;
+    margin: 20px 0 0 50px;
+    width: 600px;
+}
+
+.bicycle {
+    display: block;
+    text-align: center;
+    padding: 40px;
+}
+
+article {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #2c2c2c;
+    padding: 30px;
+    width: 555px;        
+}
+
+.footer-menu {
+    background: #e1e1e1;
+    display: block;
+    float: left;
+    height: 30px;
+    margin: 180px 0 20px;
+    width: 850px;
+}
+
+.footer-menu li {
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.footer-menu li a {
+    display: block;
+    font-size: 13px;
+    float: left;
+    color: #2c2c2c;
+    width: 100px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    text-decoration: none;
+}
+.footer-menu li a:hover {
+    text-decoration: underline;
+    color: #2c2c2c;
+}
+
+.copyrite {
+    font-size: 13px;
+    padding: 8px;
+    margin: 0 0 0 280px;
+}
